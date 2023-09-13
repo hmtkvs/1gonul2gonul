@@ -128,12 +128,12 @@ def get_n_gram_definitions(user_input, n=2):
     for i in range(len(candidate_words)):
         for j in range(2, n + 1):
             n_gram = " ".join(candidate_words[i:i + j])
-            n_gram_candidates.append(n_gram)
+            # n_gram_candidates.append(n_gram)
             n_gram_candidates.append(candidate_words[i])
     return n_gram_candidates
 
 
-st.title("Term Highlighter 💣")
+st.title("🐙🐙🐙 Term Highlighter 🐙🐙🐙")
 
 st.write(
     """
